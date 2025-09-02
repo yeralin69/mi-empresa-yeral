@@ -16,12 +16,56 @@
 <div style="text-align: center;">
 <h1> contactanos</h1>
 <p>atendemos 24/7</p>
-<img src="imagenes/contacto.webp" width="30%">
+<img src="/imagenes/aguacates.jpg" width="30%">
 
-<iframe src="https://maps.app.goo.gl/MkNsEgXYR6WdNtK69" frameborder="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15853.026959574421!2d-75.75167976744562!3d6.614991009061077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e45b49112493a41%3A0x7efa10325f1cac33!2sLos%20Aguacates%2C%20Sopetr%C3%A1n%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1756822196636!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-    </div>
+<h2 style="text-align: center;">llena el formulario</h2>
+<div style="display: flex; justify-content: center;">
+     <form>
+       <label > nombre:</label>
+       <input type="text" placeholder="En mayusculas"> <br>
+        <label > celular:</label>
+       <input type="number"> <br>
+       <label >correo:</label>
+       <input type="email" required> <br>
+       <label > fecha de nacimiento</label>
+       <input type="date" min="1980-01-01 " max="2007-12-31"> <br>
+       <label >edad:</label>
+       <input type="number"> <br>
+       <label > sube una foto</label>
+       <input type="file" accept=".jpg,.png, .jpeg"> <br>
+       <label > seleciona un genero</label> <br>
+       <input type="radio" name="genero" value="Hombre"> Hombre
+       <input type="radio" name="genero" value="Mujer">Mujer
+      <input type="radio" name="genero" value="otro">otro
+      <br>
+      <label > seleciona productos:</label> <br>
+      <input type="checkbox" name="producto" value="aguacate">aguacate
+      <input type="checkbox" name="producto" value="guacamole">guacamole
+      <input type="checkbox" name="producto" value="taquito">taquito
+    <br> 
+    <label > ¡como te contactamos?</label>
+    <select name="contacto" >
+        <option value="celular">celular</option>
+        <option value="correo"> correo</option>
+        <option value="humo"> señales de humo</option>
+        <option value="paloma"> paloma mensajera</option>
+    </select>
+<br>
+<label >mensaje</label>
+<br>
+<textarea name="mensaje" ></textarea>
+
+       <br> <br> <br>
+       <button type="submit">enviar</button>
+        <button type="reset"> borrar</button>
+
+     </form>
+
+</div>
+</div>
     
 </body>
 </html>
